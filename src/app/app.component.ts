@@ -3,10 +3,11 @@ import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from "./components/header/header.component";
 import { InvestFormComponent } from './components/invest-form/invest-form.component';
 import { ICalcInvest, IInvestInput } from './interfaces/invest-model';
+import { InvestResultsComponent } from './components/invest-results/invest-results.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, InvestFormComponent ,HeaderComponent],
+  imports: [RouterOutlet, InvestResultsComponent,InvestFormComponent ,HeaderComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
