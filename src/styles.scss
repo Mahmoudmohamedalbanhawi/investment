@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
     margin: 0 auto;
@@ -16,4 +17,48 @@ body{
 .text-center 
 {
     text-align: center;
+}
+input 
+{
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #76c0ae;
+    border-radius: 0.25rem;
+    background-color: transparent;
+    color: #c2e9e0;
+    font-size: 1rem;
+}
+.flex
+{
+    display: flex;
+}
+.w-50
+{
+    width: 50%;
+}
+.gap-2
+{
+    gap: 2rem;
+}
+
+label
+{
+    display: block;
+}
+.my-2
+{
+    margin: 0.5rem 0;
+}
+button
+{
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #76c0ae;
+    border-radius: 0.25rem;
+    background-color: #83e6c0;
+    color: #1a1f1d;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
 }
